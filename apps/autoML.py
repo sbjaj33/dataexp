@@ -278,7 +278,7 @@ def app():
         return href
 
         #---------------------------------#
-    st.image('ml.png',width=20%)
+    st.image('ml.png',width=200)
     st.title("""
          The Machine Learning Algorithm Comparison App
         """)
