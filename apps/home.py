@@ -1,0 +1,20 @@
+import streamlit as st
+def app():
+    st.title('Home')
+    st.markdown('**Welcome to DataExp - A Data Exploration and Analysis Tool.**')
+    st.info('**DataExp provides you features like**')
+    st.markdown('  ')
+    st.image('twitter.png',width=500)
+    st.markdown(' ')
+    st.markdown('''**Twitter Analysis** Module provides you facility to search and extract tweets data from twitter using tweepy API by specifying the keyword and setting parameters,
+    This also does the data cleaning and gives you ability to download the dataframe for your usage and does sentiment analysis with additional enhanced visualizations and geoplots.''')
+    st.markdown(' ')
+    st.image('eda.png',width=500)
+    st.markdown(' ')
+    st.markdown('''**Exploratory Analysis** Module provides you facility to upload your dataset and get a concise and comprehensive report about your dataset with the help of pandas profiling, it's a powerful feature for exploring the data deeply without typing any pandas code manually.''')
+    st.markdown(' ')
+    st.image('ml.png',width=500)
+    st.markdown('  ')
+    st.markdown('''**ML Comparison Analysis** Module provides you facility to upload your dataset and get results of comparison of more the thirty machine learning models on dataset and get performance table with enhanced visualizations of factors like RSME and Time, and you can also download these graphical representations for your usage.''')
+    st.markdown('  ')
+    st.success('''**For more details and better experience please use this app, Thank You**''')
