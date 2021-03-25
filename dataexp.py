@@ -3,7 +3,7 @@ from multiapp import MultiApp
 from apps import home, autoML, EDA, twitter
 
 app = MultiApp()
-st.image('expicon.png',width=300)
+st.image('expicon.png',width=380)
 
 # Add all your application here
 app.add_app("Home", home.app)
