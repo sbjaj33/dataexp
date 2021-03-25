@@ -26,7 +26,7 @@ def app():
         b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
         href = f'<a href="data:file/csv;base64,{b64}" download={filename}>Download {filename} File</a>'
         return href
-    st.image('twitter.png',width=500)
+    st.image('twitter.png',width=20%)
     st.title('Twitter Ananlysis App')
     auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
     auth.set_access_token(access_token,access_token_secret)
