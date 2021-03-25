@@ -6,7 +6,7 @@ from streamlit_pandas_profiling import st_profile_report
 
 
 def app():
-    st.image('eda.png',width=200)
+    st.image('eda.png',width=280)
     st.title('''
     Exploratory Data Analysis App
     ''')
